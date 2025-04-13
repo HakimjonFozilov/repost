@@ -1,0 +1,2 @@
+job_queue = app.job_queue
+job_queue.run_repeating(main, interval=900, first=5)
